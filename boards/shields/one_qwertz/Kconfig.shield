@@ -1,0 +1,5 @@
+config SHIELD_ONE_QWERTZ_LEFT
+    def_bool $(shields_list_contains,one_qwertz_left)
+
+config SHIELD_ONE_QWERTZ_RIGHT
+    def_bool $(shields_list_contains,one_qwertz_right)

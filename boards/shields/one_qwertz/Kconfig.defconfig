@@ -1,0 +1,16 @@
+if SHIELD_ONE_QWERTZ_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "one_qwertz"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_ONE_QWERTZ_LEFT
+
+if SHIELD_ONE_QWERTZ_LEFT || SHIELD_ONE_QWERTZ_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_ONE_QWERTZ_LEFT || SHIELD_ONE_QWERTZ_RIGHT
