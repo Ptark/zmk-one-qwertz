@@ -3,6 +3,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <locale/keys_de.h>
 
 / {
     // Define a default keymap here.
@@ -12,8 +13,8 @@
 
         default_layer {
             bindings = <
-                &kp N1 &kp N2    &kp N3 &kp N4
-                &kp A  &kp B     &kp C  &kp E
+                &kp N1 &kp N2       &kp N3    &kp N4
+                &kp A  &kp DE_Y     &kp DE_Z  &kp E
             >;
         };
     };
