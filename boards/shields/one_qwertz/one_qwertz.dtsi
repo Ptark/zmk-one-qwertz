@@ -26,7 +26,7 @@
 
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "KSCAN"
+        label = "KSCAN";
         wakeup-source;
         diode-direction = "col2row";
         row-gpios
