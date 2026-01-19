@@ -1,22 +1,12 @@
-# This file was generated from a template. Edit it to match your keyboard.
-# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
-# for instructions.
-
 file_format: "1"
 id: one_qwertz
 name: ergonaut_one_qwertz
 type: shield
-
-# Set this to a URL that documents the keyboard.
-url: https://example.com
-
-# Add any features your keyboard supports here.
-# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
+url: https://github.com/Ptark/zmk-one-qwertz
 features:
   - keys
-  - studio  # Remove this line if your keyboard will not support ZMK Studio
 requires:
-  - seeed_xiao
+  - [seeeduino_xiao_ble]
 
 siblings:
   - one_qwertz_left
