@@ -7,8 +7,8 @@
     default_layout: default_layout {
         compatible = "zmk,physical-layout";
         display-name = "Ergonaut One";
-        // transform = <&default_transform>;
-        // kscan = <&kscan>;
+        transform = <&default_transform>;
+        kscan = <&kscan>;
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   37       0     0     0>
             , <&key_physical_attrs 100 100  100   37       0     0     0>
